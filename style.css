@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    position: relative;
+    right: 14rem;
+  }
+  .containerone {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000000;
+    background-color: #dacfcf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 60rem;
+    position: absolute;
+  }
+  .containertwo {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000000;
+    background-color: #dacfcf;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30rem;
+    position: absolute;
+    left: 45px;
+  }
+  
+h1 {
+    font-size: 30px;
+    color: #fff;
+    font-family:cursive;
+    position: relative;
+    bottom: 15rem;
+    left:39rem;
+
+  }
+
+h2{
+    font-size: 30px;
+    font-family:cursive;
+    margin-top: 0.5rem;
+    position: relative;
+    top:0.9rem;
+    
+}
+  
+  button {
+    margin-top: 2rem;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 15px;
+    border: groove 4px #2141cd;
+    cursor: pointer;
+    background-color: #0a27a7;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family:cursive;
+  }
+  .btnrock {
+    margin-top: 2rem;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 15px;
+    border: groove 4px #2141cd;
+    cursor: pointer;
+    background-color: #0a27a7;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family:cursive;
+  }
+  .btnpaper {
+    margin-top: 2rem;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 15px;
+    border: groove 4px #2141cd;
+    cursor: pointer;
+    background-color: #0a27a7;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family:cursive;
+  }
+  .btnpaperpc {
+    margin-top: 2rem;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 15px;
+    border: groove 4px #2141cd;
+    cursor: pointer;
+    background-color: #0a27a7;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family:cursive;
+  }
+  .btnscissorspc {
+    margin-top: 2rem;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 15px;
+    border: groove 4px #2141cd;
+    cursor: pointer;
+    background-color: #0a27a7;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family:cursive;
+  }
+  .btnrockpc {
+    margin-top: 2rem;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 15px;
+    border: groove 4px #2141cd;
+    cursor: pointer;
+    background-color: #0a27a7;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family:cursive;
+  }
+  .btnscissors {
+    margin-top: 2rem;
+    width: 12rem;
+    height: 3rem;
+    border-radius: 15px;
+    border: groove 4px #2141cd;
+    cursor: pointer;
+    background-color: #0a27a7;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family:cursive;
+  }
+  
+  button:hover{
+    box-shadow: 0 4px 16px #4b79e6;
+  }
+  .result {
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    position: absolute;
+    margin-top: 35rem;
+    right: 33rem;
+    text-align:left;
+
+  }
+  .message {
+    font-size: 20px;
+    position: absolute;
+    margin-top: 35rem;
+    left: 50rem;
+    text-align:left;
+
+
+  }
+  .types {
+    display: flex;
+}
+
+.types div p {
+    font-size: 17px;
+}
+
+.types div {
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 13rem;
+    left: 48rem;
+    
+}
+.pers-p{
+  align-items: center;
+  position: absolute;
+  margin-top: 2.7rem;
+  left: 10rem;
+  white-space: pre;
+
+}
+
+  /*
+  .active{
+    color:#3e67c8b9;
+    background:#081d4f;
+
+  }
+  
